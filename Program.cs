@@ -26,7 +26,7 @@ namespace LabConsole
             Console.WriteLine($"An angle of {input} Degrees results in a radian of {radian}");
             Console.ReadKey(true);
         }
-
+        // The result of the method, is rounded to the first ten decimals
         public static double RadianCalc(int? input)
         {
             return Math.Round((int)input * Math.PI / 180,10);
